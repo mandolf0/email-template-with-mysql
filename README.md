@@ -5,8 +5,6 @@ I'm not going to upload that for now.
 
 [Demo video](https://youtu.be/PBr2qA9bHnM)
 
-Then point the browser to (localhost:800)
-
 ##Create table.
 ```
 CREATE TABLE `bookings` (
@@ -33,4 +31,7 @@ CREATE TABLE `bookings` (
 
 ```
 php -S localhost:800
+
+Then point the browser to (localhost:800)
+
 ```
