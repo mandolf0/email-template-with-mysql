@@ -1,0 +1,84 @@
+<style type="text/css">
+	html {
+			background-color: black;
+			color: darkgreen;
+
+		}
+  p {
+      font-family : arial;
+      font-size : 12pt;
+    }
+
+
+
+		body {
+			font-size: 24pt;
+			margin: 0 auto !important;
+			background-color: #616161!important;
+			max-width: 900px;
+      color:seashell;
+			/* border-radius: 20% 20% 20% 20%; */
+		}
+ .parent{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: blue;
+}
+  a .contactus{
+    padding: 4px;
+    
+  }
+.ex2 .box {
+  flex: 1 1 150px; /* Stretching */
+  background-color: aquamarine;
+  margin: 5px;
+}
+</style>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
+  
+</head>
+<body>
+  <div class="w3-container" style="width: 80%; margin: 0 auto;">
+
+    <div class="w3-container w3-blue">
+      <div class="w3-center">
+        <h1>Booking confirmation</h1>
+      </div>
+      <p>Please verify the details below for accuracy. </p>
+    </div>
+    
+     
+    Reservation number: <b>{reservation}</b><br>
+    
+    <p><strong>Contact </strong></p>
+    Name: <b>{customer}</b>
+    
+    <p><strong class="w3-teal w3-cell w3-padding " style="width: 10%;">Pick-up </strong> </p>
+    
+    Date: <strong>{pu_date}</strong><br>
+    Time: <strong>{pu_time}</strong><br>
+    Location: <strong>{pu_loc}</strong><br>
+    
+    <p><strong>Passenger(s) </strong> </p>
+    Adults: <strong>{adults}</strong><br>
+    Children: <strong>{children}</strong><br>
+    
+    <p><strong class="w3-teal w3-cell w3-padding " style="width: 10%;">Destination</strong> </p>
+    Location: <strong>{drop_loc}</strong><br>
+    <hr>
+    <p>We appreciate your business. </p>
+    <br>
+    <div class="w3-center">
+      <a class="contactus" href="contactus">Contact us</a>
+    </div>
+  </div>
+  
+</body>
+</html>
