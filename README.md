@@ -3,7 +3,7 @@
 This requires installing phpmailer library with composer
 I'm not going to upload that for now.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PBr2qA9bHnM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[Demo video](https://youtu.be/PBr2qA9bHnM)
 
 Then point the browser to (localhost:800)
 
