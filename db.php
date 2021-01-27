@@ -27,24 +27,5 @@ function db_connect($dbname) {
   //mysqli_close($link);
    
 }
-/* function db_connect($dbname)
-{
-   global $dbconnect, $dbhost, $dbusername, $dbuserpass;
-   
-   if (mysql_connect($dbhost, $dbusername, $dbuserpass)) {
-   	if (mysql_select_db($dbname)) {
-		return 1;
-   	}
-	
-   } // end if
-   if (!$dbconnect) {
-      return 0;
-   } elseif (!mysql_select_db($dbname)) {
-      return 0;
-   } else {
-      return $dbconnect;
-   } // if
-
-} // db_connect */
-
+ 
 ?>
